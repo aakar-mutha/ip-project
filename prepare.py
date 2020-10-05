@@ -1,7 +1,7 @@
 import os
 from shutil import copyfile
 
-download_path = '../Market'
+download_path = '/content/ip-project/Market'
 
 if not os.path.isdir(download_path):
     print('please change the download_path')
